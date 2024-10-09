@@ -4,6 +4,7 @@
 body, h1, h2, h3, p, ul, li {
     margin: 0;
     padding: 0;
+		font-family: 'Inter', sans-serif;
 }
 
 a {
@@ -15,3 +16,23 @@ a {
     box-sizing: border-box;
 }
 
+/* Heading - Semibold (600) - 36px | 2.25rem */
+.heading {
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  font-size: 36px; /* o 2.25rem */
+}
+
+/* Heading 2 - Semibold (600) - 24px | 1.5rem */
+.heading-2 {
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  font-size: 24px; /* o 1.5rem */
+}
+
+/* Body Text - Regular (400) - 16px | 1rem */
+.body-text {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 16px; /* o 1rem */
+}
