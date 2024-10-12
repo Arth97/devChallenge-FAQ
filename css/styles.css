@@ -10,9 +10,6 @@ body, h1, h2, h3, p, ul, li {
 body {
 	height: 100vh;
 	background-color: #F8FAFC;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
 }
 
 a {
@@ -35,24 +32,29 @@ ul, ol {
 .heading {
 	font-family: 'Inter', sans-serif;
 	font-weight: 600;
-	font-size: 36px; /* o 2.25rem */
+	font-size: 36px;
 }
 
 /* Heading 2 - Semibold (600) - 24px | 1.5rem */
 .heading-2 {
 	font-family: 'Inter', sans-serif;
 	font-weight: 600;
-	font-size: 24px; /* o 1.5rem */
+	font-size: 24px;
 }
 
 /* Body Text - Regular (400) - 16px | 1rem */
 .body-text {
 	font-family: 'Inter', sans-serif;
 	font-weight: 400;
-	font-size: 16px; /* o 1rem */
+	font-size: 16px;
 }
 
-header {
+a {
+	color: #4E80EE;
+	cursor: pointer;
+}
+
+.faq-title {
 	height: 178px;
 	width: 100%;
 	display: flex;
@@ -60,15 +62,15 @@ header {
 	justify-content: center;
 	align-items: center;
 	text-align: center;
-	background-color: #FFFFFF;
 	gap: 15px;
+	background-color: #FFFFFF;
 }
 
-main {
+.faq-answers {
 	display: flex;
 	flex-direction: column;
 	width: 100%;
-	max-width: 470px;
+	max-width: 640px;
 	padding: 65px 20px 0px;
 	gap: 30px;
 	margin: 0 auto;
@@ -85,8 +87,4 @@ hr {
 	height: 2px;
 	width: 120%;
 	background-color: #D2D5DA;
-}
-
-@media (max-width: 640px) {
-
 }
