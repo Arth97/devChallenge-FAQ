@@ -2,37 +2,91 @@
 
 /* Reset some default styles */
 body, h1, h2, h3, p, ul, li {
-    margin: 0;
-    padding: 0;
-		font-family: 'Inter', sans-serif;
+		margin: 0;
+		padding: 0;
+		font-family: 'Inter', sans-serif;		
+}
+
+body {
+	height: 100vh;
+	background-color: #F8FAFC;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 
 a {
-    text-decoration: none;
-    color: inherit;
+		text-decoration: none;
+		color: inherit;
 }
 
 * {
-    box-sizing: border-box;
+		box-sizing: border-box;
+}
+
+ul, ol {
+	padding-left: 20px;
+	gap: 20px;
+	display: flex;
+	flex-direction: column;
 }
 
 /* Heading - Semibold (600) - 36px | 2.25rem */
 .heading {
-  font-family: 'Inter', sans-serif;
-  font-weight: 600;
-  font-size: 36px; /* o 2.25rem */
+	font-family: 'Inter', sans-serif;
+	font-weight: 600;
+	font-size: 36px; /* o 2.25rem */
 }
 
 /* Heading 2 - Semibold (600) - 24px | 1.5rem */
 .heading-2 {
-  font-family: 'Inter', sans-serif;
-  font-weight: 600;
-  font-size: 24px; /* o 1.5rem */
+	font-family: 'Inter', sans-serif;
+	font-weight: 600;
+	font-size: 24px; /* o 1.5rem */
 }
 
 /* Body Text - Regular (400) - 16px | 1rem */
 .body-text {
-  font-family: 'Inter', sans-serif;
-  font-weight: 400;
-  font-size: 16px; /* o 1rem */
+	font-family: 'Inter', sans-serif;
+	font-weight: 400;
+	font-size: 16px; /* o 1rem */
+}
+
+header {
+	height: 178px;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	background-color: #FFFFFF;
+	gap: 15px;
+}
+
+main {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	max-width: 470px;
+	padding: 65px 20px 0px;
+	gap: 30px;
+	margin: 0 auto;
+}
+
+.answer {
+	display: flex;
+	flex-direction: column;
+	gap: 30px;
+}
+
+hr {
+	border: none;
+	height: 2px;
+	width: 120%;
+	background-color: #D2D5DA;
+}
+
+@media (max-width: 640px) {
+
 }
