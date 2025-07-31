@@ -11,7 +11,7 @@
       Demo
     </a>
     <span> | </span>
-    <a href="https://github.com/Arth97/devChallenge-FAQ/tree/main">
+    <a href="https://github.com/Arth97/devChallenge-FAQ">
       Solution
     </a>
     <span> | </span>
